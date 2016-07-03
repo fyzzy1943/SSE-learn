@@ -4,6 +4,7 @@
  */
 
 header('Content-Type: text/event-stream');
+header('X-Accel-Buffering: no');
 while(true) {
     $sleepSecs = mt_rand(250, 500) / 1000.0;
     usleep($sleepSecs * 1000000);
