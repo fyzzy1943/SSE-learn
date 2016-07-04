@@ -1,2 +1,5 @@
 /.idea
 .user.ini
+
+.env
+/vendor
