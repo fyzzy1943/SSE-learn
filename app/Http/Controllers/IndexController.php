@@ -16,7 +16,7 @@ class IndexController extends Controller
 
     public function say()
     {
-        
+        echo json_encode(['replay'=>'what']);
     }
 
     public function flush()

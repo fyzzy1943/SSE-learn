@@ -17,3 +17,4 @@ $app->get('/', function () use ($app) {
 
 $app->get('/c', 'IndexController@index');
 $app->get('/flush', 'IndexController@flush');
+$app->post('/say', 'IndexController@say');
