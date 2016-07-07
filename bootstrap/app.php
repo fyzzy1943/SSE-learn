@@ -98,4 +98,10 @@ $app->group(['namespace' => 'App\Http\Controllers'], function ($app) {
     require __DIR__.'/../app/Http/routes.php';
 });
 
+/*
+ * other
+ */
+
+$app->configure('database');
+
 return $app;
